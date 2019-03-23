@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h1>Contact information</h1>
+    <hr noshader>
+    <ul>
+      <li><strong>Gmail:</strong> josejos32@gmail.com</li>
+      <li><strong>Facebook:</strong><a href="https://www.facebook.com/Cha4morro"> Jose Chamorro</a></li>
+      <li><strong>Instagram:</strong><a href="https://www.instagram.com/?hl=es-la"> jandres_chamorro</a></li>
+    </ul>
+    <hr noshader>
+  <!--form Tag is used to collect user input. Defines whats is going to go into our form-->
+    <form action="mailto:josejos32@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label> <!--Text label to tell users the value that should be entered in the input field-->
+      <input type="text" name="yourName" value=""><br> <!--Type of input required-->
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea>
+      <input type="submit" name=""> <!--Adds a submit button-->
+      <!--There are many values for the type attribute in the input tag-->
+    </form>
+    <a href="index.html">Main Page</a>
+  </body>
+</html>
